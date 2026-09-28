@@ -1,0 +1,123 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "d4988b7fca79bbd31a69bd70",
+  "owner": "resxpnwwj",
+  "repo": "page-275a385fecc73d8dd28c051c",
+  "title": "快柠檬",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "275a385fecc73d8dd28c051c",
+      "a": "快柠檬",
+      "b": "",
+      "entity": "快柠檬",
+      "brand": "快柠檬",
+      "separator": "",
+      "path": "index.html",
+      "hash": "aa33ab8218fefcc7011dc896ee085f4b4755862dfb200e10091563a14a18f29e",
+      "content": {
+        "keyword1": "快柠檬",
+        "keyword2": "",
+        "primary_entity": "快柠檬",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "快柠檬VPN提供优质的网络加速服务，您可以轻松订阅机场并下载客户端，享受稳定高速的连接体验。",
+          "AI_DESCRIPTION": "快柠檬VPN提供优质的网络加速服务，您可以轻松订阅机场并下载客户端，享受稳定高速的连接体验。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --white: #f9f6f2;\n            --coral: #ff6b6b;\n            --dark: #2c3e50;\n        }\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n            margin: 0;\n            padding: 0;\n            background: var(--white);\n            color: var(--dark);\n            line-height: 1.6;\n        }\n        header {\n            background: white;\n            box-shadow: 0 2px 10px rgba(0,0,0,0.05);\n            position: sticky;\n            top: 0;\n            z-index: 10;\n        }\n        nav {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 1rem;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n        .logo {\n            font-size: 1.8rem;\n            font-weight: bold;\n            color: var(--coral);\n        }\n        .nav-links a {\n            margin-left: 2rem;\n            color: var(--dark);\n            text-decoration: none;\n            font-weight: 500;\n        }\n        main {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 2rem 1rem;\n        }\n        h1 {\n            font-size: 2.5rem;\n            color: var(--coral);\n            text-align: center;\n            margin-bottom: 2rem;\n        }\n        h2 {\n            font-size: 1.8rem;\n            color: var(--dark);\n            margin: 2rem 0 1rem;\n            border-bottom: 2px solid var(--coral);\n            padding-bottom: 0.5rem;\n        }\n        .intro, .scenarios, .howto {\n            background: white;\n            padding: 2rem;\n            border-radius: 8px;\n            margin-bottom: 2rem;\n            box-shadow: 0 4px 6px rgba(0,0,0,0.05);\n        }\n        .plans {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 1.5rem;\n        }\n        .plan-card {\n            background: white;\n            border: 2px solid #eee;\n            border-radius: 8px;\n            padding: 1.5rem;\n            transition: transform 0.3s;\n        }\n        .plan-card.featured {\n            border-color: var(--coral);\n            transform: scale(1.05);\n        }\n        .plan-card h3 {\n            color: var(--dark);\n            margin-bottom: 1rem;\n        }\n        .price {\n            font-size: 1.5rem;\n            font-weight: bold;\n            color: var(--coral);\n        }\n        .faq {\n            display: flex;\n            flex-direction: column;\n            gap: 1rem;\n        }\n        details {\n            background: white;\n            border-radius: 8px;\n            padding: 1rem;\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n        }\n        summary {\n            font-weight: bold;\n            color: var(--coral);\n            cursor: pointer;\n            list-style: none;\n            padding: 1rem;\n            font-size: 1.1rem;\n        }\n        summary::-webkit-details-marker {\n            display: none;\n        }\n        .clients {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n            gap: 1rem;\n        }\n        .client-logo {\n            background: #eee;\n            padding: 1rem;\n            text-align: center;\n            border-radius: 4px;\n        }\n        footer {\n            background: #f0ede8;\n            text-align: center;\n            padding: 2rem;\n            color: #777;\n        }\n        @media (max-width: 768px) {\n            main {\n                padding: 1rem;\n            }\n            h1 {\n                font-size: 2rem;\n            }\n            .nav-links {\n                display: none;\n            }\n        }\n    </style>\n\n\n    <header>\n        <nav>\n            <div class=\"logo\">快柠檬</div>\n            <div class=\"nav-links\">\n                <a href=\"#intro\">首页</a>\n                <a href=\"#plans\">套餐</a>\n                <a href=\"#faq\">FAQ</a>\n            </div>\n        </nav>\n    </header>\n    <main>\n        <h1>快柠檬</h1>\n        \n        <section id=\"intro\" class=\"intro\">\n            <h2>品牌简介</h2>\n            <p>快柠檬是一款专注于VPN加速的网络服务品牌，致力于为用户提供稳定、安全且高效的连接体验。无论您是日常上网还是需要特殊加速需求，都能通过快柠檬找到合适的解决方案。</p>\n        </section>\n        \n        <section id=\"scenarios\" class=\"scenarios\">\n            <h2>使用场景</h2>\n            <p>快柠檬适用于多种网络需求，包括但不限于解锁流媒体平台、支持多人在线游戏加速，以及企业级网络优化场景。</p>\n        </section>\n        \n        <section id=\"howto\" class=\"howto\">\n            <h2>操作说明</h2>\n            <p>1. 注册账号。<br>2. 下载并安装客户端。<br>3. 选择合适的套餐并订阅。<br>4. 连接到选择的节点享受加速服务。</p>\n        </section>\n        \n        <section id=\"plans\">\n            {{PLANS_HTML}}\n        </section>\n        \n        <section id=\"faq\" class=\"faq\">\n            <h2>常见问题</h2>\n            <details>\n                <summary>如何开始使用快柠檬VPN？</summary>\n                <p>注册账号，下载并安装客户端，登录后即可连接节点享受加速服务。</p>\n            </details>\n            <details>\n                <summary>快柠檬支持哪些设备？</summary>\n                <p>支持多台设备同时在线，具体数量取决于您的套餐选择。</p>\n            </details>\n            <details>\n                <summary>流量如何计费？</summary>\n                <p>套餐包含固定流量的极速流量，使用过程中会按量计费。</p>\n            </details>\n            <details>\n                <summary>能否解锁流媒体平台？</summary>\n                <p>旗舰版及以上套餐支持全节点原生流媒体解锁，基础版支持基础解锁。</p>\n            </details>\n            <details>\n                <summary>团队版适合哪些用户？</summary>\n                <p>团队版适合需要大量设备连接和企业定制服务的用户，提供VIP节点和高带宽支持。</p>\n            </details>\n        </section>\n        \n        <section id=\"clients\">\n            {{CLIENTS_HTML}}\n        </section>\n    </main>\n    <footer>\n        <p>© 快柠檬 VPN 2024 所有权利保留 | <a href=\"#\">隐私政策</a> | <a href=\"#\">服务条款</a></p>\n    </footer>\n\n",
+          "hash": "b87dc1fbfa1cf3d6b251a62600c4d648810721b2607e4e547b0ccb1ffc163f4a",
+          "seo": {
+            "title": "快柠檬VPN加速器 | 机场订阅 客户端下载",
+            "keywords": "快柠檬,快柠檬VPN,加速器,VPN,机场,订阅,客户端下载",
+            "description": "快柠檬VPN提供优质的网络加速服务，您可以轻松订阅机场并下载客户端，享受稳定高速的连接体验。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "tianlinjob.cn",
+    "host": "home.tianlinjob.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804"
+  },
+  "friendlinks": [
+    {
+      "host": "tianlinjob.cn",
+      "url": "https://tianlinjob.cn/",
+      "label": "YukiMo",
+      "apex": "tianlinjob.cn",
+      "kind": null,
+      "identity": "g5gxus/page-903016989671809ebab5088b"
+    },
+    {
+      "host": "00ah6.cn",
+      "url": "https://00ah6.cn/",
+      "label": "SSHUB",
+      "apex": "00ah6.cn",
+      "kind": null,
+      "identity": "erjwrgjj/page-6141714b7a0f264666643c94"
+    },
+    {
+      "host": "01kmph.cn",
+      "url": "https://01kmph.cn/",
+      "label": "WeGo",
+      "apex": "01kmph.cn",
+      "kind": null,
+      "identity": "wbwftxwku/page-680ee6fa2562d6d22ba5a121"
+    }
+  ],
+  "file_hashes": {
+    "index.html": "22a017dc8f4575a82bd648054fcacf14f6d7e94953b535d944d4917d8660312a",
+    "sitemap.xml": "84f32b33e565fdc9aa8fe4f7acd5c17993fec696f532aca1945bca8110d88150",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "b6c8bb68fedd68f28a2106a897a677385ce4836fde2396e26ef6b5c4cab2eb9f",
+    "robots.txt": "efe2cdd2799d724e7d215b3a5de848000daa068aaaac89fbb327f64931a9ab54",
+    "be65e5b1fbb87b9171e67f067cb51d38.txt": "b314e2974dd8252dd0322ceca255a8c0ad73e46595e2324133167bd9b4d2b3a0"
+  },
+  "revision": "51f92cff9859bfb817a88162c3e91c67dc102b6ed14ae2759ca519850dd6d003"
+}
